@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-menu {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header-menu a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #021313;
+  padding: 10px 20px;
+  line-height: 1.3;
+  display: block;
+}
+
+.botao-contato {
+  border: 2px solid #3de74e;
+  border-radius: 4px;
+}
+
+@media (max-width: 800px) {
+  .header {
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+  }
+  .header a {
+    background-color: #cef4dc;
+    border-radius: 4px;
+  }
+  .botao-contato {
+    border: none;
+  }
+}
