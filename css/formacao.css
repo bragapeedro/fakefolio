@@ -22,7 +22,7 @@
   font-size: 4rem;
   position: absolute;
   bottom: -38px;
-  left: 570px;
+  justify-self: center;
 }
 
 .formacao .subtitulo {
